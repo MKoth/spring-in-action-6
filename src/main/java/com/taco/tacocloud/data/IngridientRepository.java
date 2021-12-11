@@ -2,12 +2,8 @@ package com.taco.tacocloud.data;
 
 import com.taco.tacocloud.Ingridient;
 
-public interface IngridientRepository {
+import org.springframework.data.repository.CrudRepository;
 
-    Iterable<Ingridient> findAll();
-
-    Ingridient findOne(String id);
-
-    Ingridient save(Ingridient ingredient);
+public interface IngridientRepository extends CrudRepository<Ingridient, String> {
     
 }

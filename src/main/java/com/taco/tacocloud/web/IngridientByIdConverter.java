@@ -19,7 +19,7 @@ public class IngridientByIdConverter implements Converter<String, Ingridient> {
 
   @Override
   public Ingridient convert(String id) {
-    return ingredientRepo.findOne(id);
+    return ingredientRepo.findById(id).orElseThrow();
   }
 
 }

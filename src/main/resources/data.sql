@@ -4,24 +4,24 @@ delete from Taco;
 delete from Taco_Order;
 delete from Ingridient;
 insert into Ingridient (id, name, type)
-                values ('FLTO', 'Flour Tortilla', 'WRAP');
+                values ('FLTO', 'Flour Tortilla', 0);
 insert into Ingridient (id, name, type)
-                values ('COTO', 'Corn Tortilla', 'WRAP');
+                values ('COTO', 'Corn Tortilla', 0);
 insert into Ingridient (id, name, type)
-                values ('GRBF', 'Ground Beef', 'PROTEIN');
+                values ('GRBF', 'Ground Beef', 1);
 insert into Ingridient (id, name, type)
-                values ('CARN', 'Carnitas', 'PROTEIN');
+                values ('CARN', 'Carnitas', 1);
 insert into Ingridient (id, name, type)
-                values ('CHCK', 'Chicken', 'PROTEIN');
+                values ('CHCK', 'Chicken', 1);
 insert into Ingridient (id, name, type)
-                values ('TMTO', 'Diced Tomatoes', 'VEGGIES');
+                values ('TMTO', 'Diced Tomatoes', 2);
 insert into Ingridient (id, name, type)
-                values ('LETC', 'Lettuce', 'VEGGIES');
+                values ('LETC', 'Lettuce', 2);
 insert into Ingridient (id, name, type)
-                values ('CHED', 'Cheddar', 'CHEESE');
+                values ('CHED', 'Cheddar', 3);
 insert into Ingridient (id, name, type)
-                values ('JACK', 'Monterrey Jack', 'CHEESE');
+                values ('JACK', 'Monterrey Jack', 3);
 insert into Ingridient (id, name, type)
-                values ('SLSA', 'Salsa', 'SAUCE');
+                values ('SLSA', 'Salsa', 4);
 insert into Ingridient (id, name, type)
-                values ('SRCR', 'Sour Cream', 'SAUCE');
+                values ('SRCR', 'Sour Cream', 4);
